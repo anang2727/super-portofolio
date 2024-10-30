@@ -7,6 +7,8 @@ import Path from './pages/Path.jsx';
 import Skills from './pages/Skills.jsx';
 import Project from './pages/Projects.jsx';
 import Contacts from './pages/Contacts.jsx';
+import Experience from './pages/Experience.jsx'
+
 
 const App = () => {
   const [showScrollUp, setShowScrollUp] = useState(false);
@@ -45,6 +47,7 @@ const App = () => {
       <div id="projects">
         <Project />
       </div>
+      <Experience />
       <Contacts />
 
       {/* Button Arrow Up */}
