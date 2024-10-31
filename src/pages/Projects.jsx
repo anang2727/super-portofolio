@@ -4,17 +4,18 @@ const Projects = () => {
   const cardContent = [
     {
       title: "Landing Page Of Hajji",
-      imgSrc: "https://plus.unsplash.com/premium_photo-1728417200791-9fc668066747?q=80&w=1975&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      technologies: [SiHtml5, SiCss3, SiJavascript, SiTailwindcss, SiBootstrap, SiVisualstudiocode], // Use the component references without JSX
+      imgSrc: "hajji-lp.svg",
+      technologies: [SiHtml5, SiCss3, SiJavascript, SiTailwindcss, SiBootstrap, SiVisualstudiocode], 
+      linkDemo : "https://haji-umrah.vercel.app/"
     },
     {
       title: "Chatbot Rule-based",
-      imgSrc: "https://images.unsplash.com/photo-1729903277277-9c670047ce7d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      imgSrc: "https://i.pinimg.com/564x/37/08/99/3708994bdca38cd8dbea509f233f3cf4.jpg",
       technologies: [SiPhp, SiCodeigniter, SiMysql, SiXampp, SiGit], // Same here
     },
     {
       title: "Web APP Dayah Annabawi",
-      imgSrc: "https://plus.unsplash.com/premium_photo-1704497002984-c7d360f86cc0?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      imgSrc: "https://i.pinimg.com/564x/37/08/99/3708994bdca38cd8dbea509f233f3cf4.jpg",
       technologies: [SiReact, SiFigma, SiAdobexd, SiLaravel, SiAdobeillustrator], // And here
     },
   ];
@@ -44,9 +45,9 @@ const Projects = () => {
                     <TechIcon key={idx} className="text-lg" /> // Use the component as a JSX element
                   ))}
                 </div>
-                <button className="mt-4 rounded-md border border-slate-300 py-2 px-4 text-center text-sm transition-all shadow-sm hover:shadow-lg text-slate-600 hover:text-white hover:bg-slate-800 hover:border-slate-800 focus:text-white focus:bg-slate-800 focus:border-slate-800 active:border-slate-800 active:text-white active:bg-slate-800 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" type="button">
+                <a target="_blank" href={card.linkDemo} className="mt-4 rounded-md border border-slate-300 py-2 px-4 text-center text-sm transition-all shadow-sm hover:shadow-lg text-slate-600 hover:text-white hover:bg-slate-800 hover:border-slate-800 focus:text-white focus:bg-slate-800 focus:border-slate-800 active:border-slate-800 active:text-white active:bg-slate-800 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" type="button">
                   View
-                </button>
+                </a>
               </div>
             </div>
           ))}

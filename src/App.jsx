@@ -8,7 +8,7 @@ import Skills from './pages/Skills.jsx';
 import Project from './pages/Projects.jsx';
 import Contacts from './pages/Contacts.jsx';
 import Experience from './pages/Experience.jsx'
-
+import Footer from './pages/Footer.jsx'
 
 const App = () => {
   const [showScrollUp, setShowScrollUp] = useState(false);
@@ -49,6 +49,7 @@ const App = () => {
       </div>
       <Experience />
       <Contacts />
+      <Footer />
 
       {/* Button Arrow Up */}
       {showScrollUp && (

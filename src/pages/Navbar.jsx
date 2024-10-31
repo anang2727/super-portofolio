@@ -1,4 +1,3 @@
-import { SiBuymeacoffee } from "react-icons/si";
 const Navbar = () => {
   return (
     <>
@@ -8,9 +7,7 @@ const Navbar = () => {
                     <span className="text-xs border border-[#021526] rounded-full px-2 p-1 bg-[#021526] text-white hover:bg-[#F5F7F8] hover:text-[#021526] transition-all cursor-pointer">Aceh</span>
                     <span className="text-xs border border-[#021526] rounded-full px-2 p-1 bg-white">ID</span>
                 </div>
-                <a href="https://www.buymeacoffee.com/anangkurniawan2727" className="text-xl border border-none p-1 outline-none">
-                    <SiBuymeacoffee />
-                </a>
+                <img src="icon.png" alt="" className="w-7" />
             </div>
         </div>
     </>

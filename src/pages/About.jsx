@@ -20,7 +20,7 @@ const About = () => {
             <a href="https://github.com/anang2727" target="_blank" rel="noopener noreferrer">
               <FaGithub className="border rounded-full p-2 hover:bg-sky-600 hover:text-[#F5F7F8] transition-all"/>
             </a>
-            <a href="anangkurniawan2727@gmail.com" target="_blank" rel="noopener noreferrer">
+            <a href="mailto:anangkurniawan2727@gmail.com" target="_blank" rel="noopener noreferrer">
               <MdOutlineEmail className="border rounded-full p-2 hover:bg-sky-600 hover:text-[#F5F7F8] transition-all"/>
             </a>
             <a href="https://www.youtube.com/@anangkurniawan2727/" target="_blank" rel="noopener noreferrer">
